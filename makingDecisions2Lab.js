@@ -6,7 +6,7 @@ var arr = [10,20,30,40,50,60]
   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
 */
 
-//Code Here
+let firstItem = arr[0];
 
 
 ////////// PROBLEM 2 //////////
