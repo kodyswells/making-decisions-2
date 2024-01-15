@@ -29,7 +29,12 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
   Loop through the 'family' array and console.log every item.
 */
 
-//Code Here
+for (let index = 0; index < family.length; index++) {
+  const element = family[index];
+  
+  console.log(element);
+  
+}
 
 
 
