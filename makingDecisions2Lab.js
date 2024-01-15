@@ -98,7 +98,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
   Create a variable named 'someNum' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
 */
 
-//Code Here
+let someNum = myFavoriteNumbers[4];
+console.log(someNum);
 
 
 ////////// PROBLEM 7 //////////
