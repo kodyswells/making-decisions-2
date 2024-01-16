@@ -211,4 +211,17 @@ switch (letterGrade) {
   ...
 */
 
-//Code Here
+let FizzBuzz = [];
+
+for (let i = 1; i <= 100; i++) {
+  const element = FizzBuzz.push(i);
+  if(element % 3 === 0) {
+    console.log("Dev");
+  } else if (element % 5 === 0) {
+    console.log("mountain");
+  } else if (element % 3 === 0 && element % 5 === 0) {
+    console.log("Devmountain")
+  } else {
+    console.log(element);
+  }
+}
